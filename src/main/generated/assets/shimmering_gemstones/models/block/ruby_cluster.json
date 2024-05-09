@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "shimmering_gemstones:block/ruby_cluster"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "shimmering_gemstones:item/raw_ruby"
+  }
+}

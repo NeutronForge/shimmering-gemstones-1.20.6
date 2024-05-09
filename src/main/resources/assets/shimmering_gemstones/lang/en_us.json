@@ -1,0 +1,29 @@
+{
+  "item.shimmering_gemstones.ruby": "Ruby",
+  "item.shimmering_gemstones.raw_ruby": "Raw Ruby",
+  "item.shimmering_gemstones.ruby_sliver": "Uncut Ruby",
+
+  "block.shimmering_gemstones.ruby_block": "Block of Ruby",
+
+
+  "block.shimmering_gemstones.encased_ruby_vein": "Encased Ruby Vein",
+  "block.shimmering_gemstones.fractured_ruby_vein": "Fractured Ruby Vein",
+
+
+  "block.shimmering_gemstones.ruby_cluster": "Ruby Cluster",
+  "block.shimmering_gemstones.large_ruby_bud": "Large Ruby Splinter",
+  "block.shimmering_gemstones.medium_ruby_bud": "Medium Ruby Splinter",
+  "block.shimmering_gemstones.small_ruby_bud": "Small Ruby Splinter",
+
+
+  "block.shimmering_gemstones.biotite": "Biotite",
+  "block.shimmering_gemstones.polished_biotite": "Polished Biotite",
+
+  "block.shimmering_gemstones.marble": "Marble",
+  "block.shimmering_gemstones.marble_bricks": "Marble Bricks",
+  "block.shimmering_gemstones.marble_pillar": "Marble Column",
+  "block.shimmering_gemstones.chiseled_marble": "Chiseled Marble",
+
+
+  "itemgroup.ruby_group": "Ruby Group [WIP]"
+}

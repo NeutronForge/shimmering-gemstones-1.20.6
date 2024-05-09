@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_encased_ruby_vein": {
+      "conditions": {
+        "items": [
+          {
+            "items": "shimmering_gemstones:encased_ruby_vein"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:ruby_from_blasting_encased_ruby_vein"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_encased_ruby_vein"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:ruby_from_blasting_encased_ruby_vein"
+    ]
+  }
+}

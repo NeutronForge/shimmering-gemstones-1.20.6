@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column_horizontal",
+  "textures": {
+    "end": "shimmering_gemstones:block/polished_biotite_top",
+    "side": "shimmering_gemstones:block/polished_biotite"
+  }
+}

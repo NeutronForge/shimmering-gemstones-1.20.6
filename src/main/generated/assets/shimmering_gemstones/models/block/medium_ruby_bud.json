@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "shimmering_gemstones:block/medium_ruby_bud"
+  }
+}

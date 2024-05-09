@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "shimmering_gemstones:block/polished_biotite_horizontal",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "shimmering_gemstones:block/polished_biotite"
+    },
+    "axis=z": {
+      "model": "shimmering_gemstones:block/polished_biotite_horizontal",
+      "x": 90
+    }
+  }
+}

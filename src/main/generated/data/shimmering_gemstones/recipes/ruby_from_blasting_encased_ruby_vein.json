@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 140,
+  "experience": 1.4,
+  "group": "ruby",
+  "ingredient": {
+    "item": "shimmering_gemstones:encased_ruby_vein"
+  },
+  "result": {
+    "id": "shimmering_gemstones:ruby"
+  }
+}

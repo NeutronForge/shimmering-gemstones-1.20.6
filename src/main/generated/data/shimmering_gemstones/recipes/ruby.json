@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "shimmering_gemstones:ruby_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "shimmering_gemstones:ruby"
+  }
+}

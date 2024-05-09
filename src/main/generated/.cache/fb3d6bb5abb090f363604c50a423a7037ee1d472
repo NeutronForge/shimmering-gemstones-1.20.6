@@ -1,0 +1,6 @@
+// 1.20.6	2024-05-09T19:09:09.1116163	Shimmering Gemstones/Tags for minecraft:block
+91abc3614968dd2eb23982e5423ec870a096a48d data\minecraft\tags\blocks\needs_stone_tool.json
+35133e95f1c8fdd7a1c21afcc231fc0bffefb9a8 data\fabric\tags\blocks\needs_tool_level_4.json
+64a65addaf5e8194eb565f9488bf4f4ac9d74356 data\minecraft\tags\blocks\needs_iron_tool.json
+ce366e87602ec56a43118bc47d06aa1fc38288c2 data\minecraft\tags\blocks\mineable\pickaxe.json
+afd23dc1bdf840a347cd945e2b4ac776f7c2b4ab data\minecraft\tags\blocks\needs_diamond_tool.json

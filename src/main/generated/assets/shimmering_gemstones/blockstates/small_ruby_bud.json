@@ -1,0 +1,30 @@
+{
+  "variants": {
+    "facing=down": {
+      "model": "shimmering_gemstones:block/small_ruby_bud",
+      "x": 180
+    },
+    "facing=east": {
+      "model": "shimmering_gemstones:block/small_ruby_bud",
+      "x": 90,
+      "y": 90
+    },
+    "facing=north": {
+      "model": "shimmering_gemstones:block/small_ruby_bud",
+      "x": 90
+    },
+    "facing=south": {
+      "model": "shimmering_gemstones:block/small_ruby_bud",
+      "x": 90,
+      "y": 180
+    },
+    "facing=up": {
+      "model": "shimmering_gemstones:block/small_ruby_bud"
+    },
+    "facing=west": {
+      "model": "shimmering_gemstones:block/small_ruby_bud",
+      "x": 90,
+      "y": 270
+    }
+  }
+}

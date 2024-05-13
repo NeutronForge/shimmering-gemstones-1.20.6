@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/fence_post",
+  "textures": {
+    "texture": "shimmering_gemstones:block/smooth_marble"
+  }
+}

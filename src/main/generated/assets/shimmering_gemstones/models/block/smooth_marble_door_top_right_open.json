@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/door_top_right_open",
+  "textures": {
+    "bottom": "shimmering_gemstones:block/smooth_marble_door_bottom",
+    "top": "shimmering_gemstones:block/smooth_marble_door_top"
+  }
+}

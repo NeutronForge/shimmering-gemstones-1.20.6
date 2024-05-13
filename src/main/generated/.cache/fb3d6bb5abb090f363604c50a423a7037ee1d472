@@ -1,6 +1,10 @@
-// 1.20.6	2024-05-09T19:09:09.1116163	Shimmering Gemstones/Tags for minecraft:block
-91abc3614968dd2eb23982e5423ec870a096a48d data\minecraft\tags\blocks\needs_stone_tool.json
+// 1.20.6	2024-05-11T16:00:19.2016753	Shimmering Gemstones/Tags for minecraft:block
+35133e95f1c8fdd7a1c21afcc231fc0bffefb9a8 data\minecraft\tags\blocks\fence_gates.json
+35133e95f1c8fdd7a1c21afcc231fc0bffefb9a8 data\fabric\tags\blocks\needs_tool_level_5.json
+b8ca1f800412b2e1696246c8b3e9b29918594541 data\minecraft\tags\blocks\walls.json
+d5334f2f9a5ed8732d09038cdf839eb0ea235b01 data\minecraft\tags\blocks\needs_stone_tool.json
 35133e95f1c8fdd7a1c21afcc231fc0bffefb9a8 data\fabric\tags\blocks\needs_tool_level_4.json
 64a65addaf5e8194eb565f9488bf4f4ac9d74356 data\minecraft\tags\blocks\needs_iron_tool.json
-ce366e87602ec56a43118bc47d06aa1fc38288c2 data\minecraft\tags\blocks\mineable\pickaxe.json
+2a596b5c0c923b1458ed0f6aa8d717e427d996ef data\minecraft\tags\blocks\mineable\pickaxe.json
 afd23dc1bdf840a347cd945e2b4ac776f7c2b4ab data\minecraft\tags\blocks\needs_diamond_tool.json
+fcdbea111944ea22f32906ced0a8020898d5e5ce data\minecraft\tags\blocks\fences.json

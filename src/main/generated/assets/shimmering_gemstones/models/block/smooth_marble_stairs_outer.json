@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/outer_stairs",
+  "textures": {
+    "bottom": "shimmering_gemstones:block/smooth_marble",
+    "side": "shimmering_gemstones:block/smooth_marble",
+    "top": "shimmering_gemstones:block/smooth_marble"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/inner_stairs",
+  "textures": {
+    "bottom": "shimmering_gemstones:block/marble_bricks",
+    "side": "shimmering_gemstones:block/marble_bricks",
+    "top": "shimmering_gemstones:block/marble_bricks"
+  }
+}

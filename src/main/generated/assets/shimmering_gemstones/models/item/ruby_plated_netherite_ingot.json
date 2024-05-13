@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "shimmering_gemstones:item/ruby_plated_netherite_ingot"
+  }
+}

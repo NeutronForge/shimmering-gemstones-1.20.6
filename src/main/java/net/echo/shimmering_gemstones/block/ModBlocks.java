@@ -38,28 +38,55 @@ public class ModBlocks {
     public static final Block MARBLE = registerBlock("marble",
             new Block(FabricBlockSettings.copyOf(Blocks.QUARTZ_BLOCK)));
 
-    public static final Block MARBLE_BRICKS = registerBlock("marble_bricks",
-            new Block(FabricBlockSettings.copyOf(Blocks.QUARTZ_BRICKS)));
-
     public static final Block CHISELED_MARBLE = registerBlock("chiseled_marble",
             new Block(FabricBlockSettings.copyOf(Blocks.CHISELED_QUARTZ_BLOCK)));
 
     public static final Block MARBLE_PILLAR = registerBlock("marble_pillar",
             new PillarBlock(FabricBlockSettings.copyOf(Blocks.QUARTZ_PILLAR)));
 
-
-
+    public static final Block GILDED_MARBLE = registerBlock("gilded_marble",
+            new PillarBlock(FabricBlockSettings.copyOf(Blocks.QUARTZ_BLOCK)));
 
     public static final Block SMOOTH_MARBLE = registerBlock("smooth_marble",
             new Block(FabricBlockSettings.copyOf(Blocks.SMOOTH_QUARTZ)));
+    public static final Block SMOOTH_MARBLE_STAIRS = registerBlock("smooth_marble_stairs",
+            new StairsBlock(ModBlocks.SMOOTH_MARBLE.getDefaultState(), FabricBlockSettings.copyOf(Blocks.SMOOTH_QUARTZ)));
+    public static final Block SMOOTH_MARBLE_SLAB = registerBlock("smooth_marble_slab",
+            new SlabBlock(FabricBlockSettings.copyOf(Blocks.SMOOTH_QUARTZ)));
+    public static final Block SMOOTH_MARBLE_BUTTON = registerBlock("smooth_marble_button",
+            new ButtonBlock(BlockSetType.STONE, 10, FabricBlockSettings.copyOf(Blocks.SMOOTH_QUARTZ)));
+    public static final Block SMOOTH_MARBLE_PRESSURE_PLATE = registerBlock("smooth_marble_pressure_plate",
+            new PressurePlateBlock(BlockSetType.STONE, FabricBlockSettings.copyOf(Blocks.SMOOTH_QUARTZ)));
+    public static final Block SMOOTH_MARBLE_FENCE = registerBlock("smooth_marble_fence",
+            new FenceBlock(FabricBlockSettings.copyOf(Blocks.SMOOTH_QUARTZ)));
+    public static final Block SMOOTH_MARBLE_WALL = registerBlock("smooth_marble_wall",
+            new WallBlock(FabricBlockSettings.copyOf(Blocks.SMOOTH_QUARTZ)));
+    public static final Block SMOOTH_MARBLE_DOOR = registerBlock("smooth_marble_door",
+            new DoorBlock(BlockSetType.STONE, FabricBlockSettings.copyOf(Blocks.SMOOTH_QUARTZ).nonOpaque()));
+    public static final Block SMOOTH_MARBLE_TRAPDOOR = registerBlock("smooth_marble_trapdoor",
+            new TrapdoorBlock(BlockSetType.STONE, FabricBlockSettings.copyOf(Blocks.SMOOTH_QUARTZ).nonOpaque()));
 
-
-
-
-    public static final Block SMOOTH_MARBLE_BRICKS = registerBlock("smooth_marble_bricks",
+    public static final Block MARBLE_BRICKS = registerBlock("marble_bricks",
+            new Block(FabricBlockSettings.copyOf(Blocks.QUARTZ_BRICKS)));
+    public static final Block MARBLE_BRICK_STAIRS = registerBlock("marble_brick_stairs",
+            new StairsBlock(ModBlocks.MARBLE_BRICKS.getDefaultState(), FabricBlockSettings.copyOf(Blocks.SMOOTH_QUARTZ)));
+    public static final Block MARBLE_BRICK_SLAB = registerBlock("marble_brick_slab",
+            new SlabBlock(FabricBlockSettings.copyOf(Blocks.SMOOTH_QUARTZ)));
+    public static final Block MARBLE_BRICK_WALL = registerBlock("marble_brick_wall",
+            new WallBlock(FabricBlockSettings.copyOf(Blocks.SMOOTH_QUARTZ)));
+    public static final Block VERTICAL_MARBLE_BRICKS = registerBlock("vertical_marble_bricks",
             new Block(FabricBlockSettings.copyOf(Blocks.QUARTZ_BRICKS)));
 
-
+    public static final Block MARBLE_TILES = registerBlock("marble_tiles",
+            new Block(FabricBlockSettings.copyOf(Blocks.QUARTZ_BRICKS)));
+    public static final Block MARBLE_TILE_STAIRS = registerBlock("marble_tile_stairs",
+            new StairsBlock(ModBlocks.MARBLE_TILES.getDefaultState(), FabricBlockSettings.copyOf(Blocks.SMOOTH_QUARTZ)));
+    public static final Block MARBLE_TILE_SLAB = registerBlock("marble_tile_slab",
+            new SlabBlock(FabricBlockSettings.copyOf(Blocks.SMOOTH_QUARTZ)));
+    public static final Block MARBLE_TILE_WALL = registerBlock("marble_tile_wall",
+            new WallBlock(FabricBlockSettings.copyOf(Blocks.SMOOTH_QUARTZ)));
+    public static final Block VERTICAL_MARBLE_TILES = registerBlock("vertical_marble_tiles",
+            new Block(FabricBlockSettings.copyOf(Blocks.QUARTZ_BRICKS)));
 
 
 
@@ -84,6 +111,8 @@ public class ModBlocks {
     public static final Block SMALL_RUBY_BUD = registerBlock("small_ruby_bud",
             new RubyClusterBlock(3.0f, 4.0f, FabricBlockSettings.copyOf(Blocks.SMALL_AMETHYST_BUD).nonOpaque()));
 
+    //public static final Block RUBY_WARFORGE = registerBlock("ruby_warforge",
+    //        new RubyWarforgeBlock(FabricBlockSettings.copyOf(Blocks.ANCIENT_DEBRIS)));
 
 
 

@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "shimmering_gemstones:block/marble_tile_slab"
+    },
+    "type=double": {
+      "model": "shimmering_gemstones:block/marble_tiles"
+    },
+    "type=top": {
+      "model": "shimmering_gemstones:block/marble_tile_slab_top"
+    }
+  }
+}

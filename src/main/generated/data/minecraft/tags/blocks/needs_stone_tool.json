@@ -1,10 +1,19 @@
 {
   "values": [
     "shimmering_gemstones:marble",
-    "shimmering_gemstones:marble_bricks",
     "shimmering_gemstones:marble_pillar",
     "shimmering_gemstones:chiseled_marble",
+    "shimmering_gemstones:gilded_marble",
     "shimmering_gemstones:smooth_marble",
-    "shimmering_gemstones:smooth_marble_bricks"
+    "shimmering_gemstones:marble_bricks",
+    "shimmering_gemstones:marble_brick_stairs",
+    "shimmering_gemstones:marble_brick_slab",
+    "shimmering_gemstones:marble_brick_wall",
+    "shimmering_gemstones:vertical_marble_bricks",
+    "shimmering_gemstones:marble_tiles",
+    "shimmering_gemstones:marble_tile_stairs",
+    "shimmering_gemstones:marble_tile_slab",
+    "shimmering_gemstones:marble_tile_wall",
+    "shimmering_gemstones:vertical_marble_tiles"
   ]
 }

@@ -5,11 +5,9 @@ import net.echo.shimmering_gemstones.item.ModItems;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricBlockLootTableProvider;
 import net.minecraft.block.Block;
-import net.minecraft.block.Blocks;
 import net.minecraft.data.server.loottable.BlockLootTableGenerator;
 import net.minecraft.enchantment.Enchantments;
 import net.minecraft.item.Item;
-import net.minecraft.item.Items;
 import net.minecraft.loot.LootTable;
 import net.minecraft.loot.entry.ItemEntry;
 import net.minecraft.loot.entry.LeafEntry;
@@ -35,12 +33,31 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
 
         //
         addDrop(ModBlocks.MARBLE);
-        addDrop(ModBlocks.MARBLE_BRICKS);
         addDrop(ModBlocks.MARBLE_PILLAR);
-        addDrop(ModBlocks.CHISELED_MARBLE);
-        addDrop(ModBlocks.SMOOTH_MARBLE);
+        addDrop(ModBlocks.GILDED_MARBLE);
 
-        addDrop(ModBlocks.SMOOTH_MARBLE_BRICKS);
+        addDrop(ModBlocks.SMOOTH_MARBLE);
+        addDrop(ModBlocks.SMOOTH_MARBLE_STAIRS);
+        addDrop(ModBlocks.SMOOTH_MARBLE_BUTTON);
+        addDrop(ModBlocks.SMOOTH_MARBLE_PRESSURE_PLATE);
+        addDrop(ModBlocks.SMOOTH_MARBLE_FENCE);
+        addDrop(ModBlocks.SMOOTH_MARBLE_WALL);
+        addDrop(ModBlocks.SMOOTH_MARBLE_TRAPDOOR);
+        addDrop(ModBlocks.SMOOTH_MARBLE_DOOR, doorDrops(ModBlocks.SMOOTH_MARBLE_DOOR));
+        addDrop(ModBlocks.SMOOTH_MARBLE_SLAB, slabDrops(ModBlocks.SMOOTH_MARBLE_SLAB));
+
+        addDrop(ModBlocks.MARBLE_BRICKS);
+        addDrop(ModBlocks.MARBLE_BRICK_STAIRS);
+        addDrop(ModBlocks.MARBLE_BRICK_WALL);
+        addDrop(ModBlocks.MARBLE_BRICK_SLAB, slabDrops(ModBlocks.MARBLE_BRICK_SLAB));
+        addDrop(ModBlocks.VERTICAL_MARBLE_BRICKS);
+
+
+        addDrop(ModBlocks.MARBLE_TILES);
+        addDrop(ModBlocks.MARBLE_TILE_STAIRS);
+        addDrop(ModBlocks.MARBLE_TILE_WALL);
+        addDrop(ModBlocks.MARBLE_TILE_SLAB, slabDrops(ModBlocks.MARBLE_TILE_SLAB));
+        addDrop(ModBlocks.VERTICAL_MARBLE_TILES);
 
         //
         addDrop(ModBlocks.ENCASED_RUBY_VEIN);

@@ -3,6 +3,14 @@
   "item.shimmering_gemstones.raw_ruby": "Raw Ruby",
   "item.shimmering_gemstones.ruby_sliver": "Uncut Ruby",
 
+  "item.shimmering_gemstones.ruby_plated_netherite_ingot": "Netheruby Ingot",
+  "item.shimmering_gemstones.ruby_plated_netherite_sword": "Netheruby Broadsword",
+  "item.shimmering_gemstones.ruby_plated_netherite_pickaxe": "Netheruby Pickaxe",
+  "item.shimmering_gemstones.ruby_plated_netherite_axe": "Netheruby Battleaxe",
+
+  "item.shimmering_gemstones.depleted_ruby_plated_netherite_upgrade": "Depleted Netheruby Upgrade",
+  "item.shimmering_gemstones.charged_ruby_plated_netherite_upgrade": "Charged Netheruby Upgrade",
+
   "block.shimmering_gemstones.ruby_block": "Block of Ruby",
 
 
@@ -20,10 +28,35 @@
   "block.shimmering_gemstones.polished_biotite": "Polished Biotite",
 
   "block.shimmering_gemstones.marble": "Marble",
-  "block.shimmering_gemstones.marble_bricks": "Marble Bricks",
   "block.shimmering_gemstones.marble_pillar": "Marble Column",
   "block.shimmering_gemstones.chiseled_marble": "Chiseled Marble",
+  "block.shimmering_gemstones.gilded_marble": "Chiseled Marble",
+  "block.shimmering_gemstones.smooth_marble": "Smooth Marble",
+
+  "block.shimmering_gemstones.smooth_marble_stairs": "Smooth Marble",
+  "block.shimmering_gemstones.smooth_marble_slab": "Smooth Marble",
+  "block.shimmering_gemstones.smooth_marble_button": "Smooth Marble Button",
+  "block.shimmering_gemstones.smooth_marble_pressure_plate": "Smooth Marble Pressure Plate",
+  "block.shimmering_gemstones.smooth_marble_fence": "Smooth Marble Fence",
+  "block.shimmering_gemstones.smooth_marble_wall": "Smooth Marble Wall",
+  "block.shimmering_gemstones.smooth_marble_door": "Smooth Marble Door",
+  "block.shimmering_gemstones.smooth_marble_trapdoor": "Smooth Marble Trapdoor",
+
+  "block.shimmering_gemstones.marble_bricks": "Marble Bricks",
+  "block.shimmering_gemstones.marble_brick_stairs": "Marble Brick Stairs",
+  "block.shimmering_gemstones.marble_brick_slab": "Marble Brick Slab",
+  "block.shimmering_gemstones.marble_brick_wall": "Marble Brick Wall",
+  "block.shimmering_gemstones.vertical_marble_bricks": "Vertical Marble Bricks",
+
+  "block.shimmering_gemstones.marble_tiles": "Marble Tiles",
+  "block.shimmering_gemstones.marble_tile_stairs": "Marble Tile Stairs",
+  "block.shimmering_gemstones.marble_tile_slab": "Marble Tile Slab",
+  "block.shimmering_gemstones.marble_tile_wall": "Marble Tile Wall",
+  "block.shimmering_gemstones.vertical_marble_tiles": "Vertical Marble Tiles",
 
 
-  "itemgroup.ruby_group": "Ruby Group [WIP]"
+
+
+  "itemgroup.ruby_group": "Ruby",
+  "itemgroup.marble_group": "Marble"
 }
